@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Submit</title>
+	<link rel="stylesheet" type="text/css" href="submit.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+			$("form").submit(function(){
+				console.log($(this).serialize());
+				return false
+
+			});
+		
+		});
+
+
+	</script>
+</head>
+	
+
+<body>
+
+<table id="mytable">
+	<thead>
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Email Adress</th>
+			<th>Contact #</th>
+		</tr>
+	</thead>
+<tbody>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</tbody>
+</table>
+	<div id="to">
+
+		<h2>Add User</h2>
+
+			<div id="input">
+
+				<form action="" method="" >
+				<p>First Name <input type="text" name="first_name" placeholder="First Name"> </p>
+				<p>Last Name <input type="text" name="last_name" placeholder="Last Name"> </p>
+				<p>Email Adress <input type="text" name="email_adress" placeholder="Email Adress"> </p>
+				<p>Contact No. <input type="text" name="contact" placeholder="Phone #"> </p>
+				<input type="submit" name="Add User">
+				</form>
+			</div>
+	</div>
+
+</body>
+</html>

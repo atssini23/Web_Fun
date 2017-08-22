@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ninja to Cat</title>
+	<link rel="stylesheet" type="text/css" href="ninjacat.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		
+
+		$('#image').click('slow',function(){
+			$(this).load(function(){
+				$(this).fadeIn('slow');
+
+			});
+			$(this).attr('src','img/cat0.png');
+
+
+		});
+		$('#image2').click('slow',function(){
+			$(this).load(function(){
+				$(this).fadeIn('slow');
+
+			});
+			$(this).attr('src','img/cat1.png');
+
+
+		});
+	$('#image3').click('slow',function(){
+			$(this).load(function(){
+				$(this).fadeIn('slow');
+
+			});
+			$(this).attr('src','img/cat2.png');
+
+
+		});
+	 	$('#image4').click('slow',function(){
+			$(this).load(function(){
+				$(this).fadeIn('slow');
+
+			});
+			$(this).attr('src','img/cat3.png');
+
+
+		});
+		$('#image5').click('slow',function(){
+			$(this).load(function(){
+				$(this).fadeIn('slow');
+
+			});
+			$(this).attr('src','img/cat4.png');
+
+
+		});
+	});	
+	</script>
+</head>
+<body>
+	<div>
+		<img id="image" src="img/ninja0.png" data-alt-src="img/cat0.png"/>
+		<img id="image2" src="img/ninja1.png" data-alt-src="img/cat1.png"/>
+		<img id="image3" src="img/ninja2.png" data-alt-src="img/cat2.png"/>
+		<img id="image4" src="img/ninja3.png" data-alt-src="img/cat3.png"/>
+		<img id="image5" src="img/ninja4.png" data-alt-src="img/cat4.png"/>
+	</div>
+	
+</body>
+</html>

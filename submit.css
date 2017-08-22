@@ -1,0 +1,35 @@
+table{
+
+}
+thead {
+}
+tr {
+	
+}
+th {
+	
+}
+tbody{
+	
+}
+#to{
+	width: 100%;
+}
+h2 {
+	display: inline-block;
+	margin: 10px 0px 0px 20px;
+}
+#input {
+	width: 30%;
+	border-top: 2px solid gray;
+}
+input{
+	width: 45%;
+	margin-left: 40px;
+}
+p {
+	text-align: right;
+}
+button{
+
+}

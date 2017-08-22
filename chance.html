@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	"use strict";
+	function chance(quarters){
+		for (var i=quarters; i>0; i--){
+			if(Math.random() < .01) {
+				quarters += quarters + Math.floor(Math.random() * 50) + 50;
+			}
+		}
+	}
+
+</script>
+
+
+</body>
+</html>

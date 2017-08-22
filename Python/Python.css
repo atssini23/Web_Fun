@@ -1,0 +1,167 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+
+.search a{
+	color: yellow;
+}
+#container {
+	width: 970px;
+	margin: 0px auto;
+	background-color: #1B3E63;
+}
+
+#header{
+    :
+    box-shadow: saddlebrown;
+}
+
+.search{
+	display: inline-block;
+	width: 19%;
+}
+#logo {
+	vertical-align: top;
+	display: inline-block;
+	width: 300px;
+
+}
+.fix{
+	display: inline-block;
+	width: 78%;
+}
+#logo img {
+	width: 100%;
+}
+
+.box {
+	text-align: right;
+	padding: 24px 0px 24px 4px;
+	background: #666;
+	border-radius: 10px;
+	box-shadow: 3px 3px;
+}
+
+#text {
+	color: white;
+	text-align: right;
+}
+
+a {
+	color: white;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px 40px;
+	padding: 0px 50px;
+	overflow: hidden;
+	background-color: #37699D;
+	border-radius: 6px;
+	font-size: 48px;
+	box-shadow: 3px 3px;
+}
+
+nav li {
+	float: left;
+	font-size: 16px;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+#side {
+	display: inline-block;
+	margin-left: 106px;
+	line-height: 30px;
+	margin-top: 39px;
+}
+
+#side li {
+	text-align: center;
+	display: block;
+}
+
+#First {
+	color: white;
+	text-align: center;
+	width: 607px;
+	display: inline-block;
+	/* margin-top: -24px; */
+	vertical-align: top;
+	margin-top: 14px;
+	margin-left: 77px;
+	margin-bottom: 17px;
+}
+
+#B {
+	text-align: center;
+	color: yellow;
+	line-height: 40px;
+	margin: 0;
+	font-style: italic;
+}
+
+#Zen {
+	text-align: center;
+	color: white;
+}
+
+.columns {
+	font-size: 0px;
+	background: white;
+	padding: 0 70px;
+}
+
+.column {
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	width: 50%;
+	height: 200px;
+	padding: 0 15px;
+}
+
+.column ul {
+	display: inline-block;
+}
+
+.column:first-child {
+}
+
+.column:last-child {
+}
+
+.column h4 {
+	border-top: 3px solid #558EC8;
+}
+
+.column p {
+}
+
+.column li {
+	color: #558EC8;
+}
+
+#footer h5 {
+	display: inline;
+	color: rgba(255, 255, 255, 0.34);
+	margin: 25px;
+}
+
+#footer {
+	height: 50px;
+	padding: 49px;
+	text-align: center;
+}

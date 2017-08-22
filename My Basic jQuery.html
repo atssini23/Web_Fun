@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Basic jQuery</title>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			$('a').click(function(){
+				alert('you are leaving the page!');
+			});
+
+			$('#hide').hover(function(){
+				$('h3').fadeOut();
+			});
+
+			$('#hide').click(function(){
+				$('h3').show();
+			});
+
+			$('p').click(function(){
+				$('#help').toggle("slow", function(){
+				});
+			});
+
+		});
+
+	</script>
+</head>
+<body>
+	<p>Paragraph!</p>
+	<p>Also a paragraph</p>
+	<button id="help">HELP!</button>
+	<button id="">jk!</button>
+	<div>
+		<a id="/" href="http://www.google.com">This is Google!</a>
+	</div>
+	<div id="hide">
+		<h3> California</h3>
+		<h2> Seattle</h2>
+	</div>
+
+</body>
+</html>

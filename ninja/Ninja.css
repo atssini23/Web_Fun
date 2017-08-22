@@ -1,0 +1,22 @@
+body{
+	background-color: black;
+	display: inline-block;
+}
+img{
+	display: inline-block;
+	width: 18%;
+	margin-left: 2%;
+}
+button{
+	background: black;
+	color: white;
+	border: 0;
+	display: inline-block;
+	width: 100px;
+	box-shadow: 1px 1px 0px;
+	margin: 10px 10px 10px 520px;
+}
+.description{
+	color:black;
+	
+}

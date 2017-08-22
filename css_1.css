@@ -1,0 +1,30 @@
+h3{
+	text-align: center;
+	text-decoration: none;
+	margin: 100px
+	
+	
+
+
+}
+
+p{
+	background-color: #e6ccff ;
+	color: white;
+	border: 10px
+	margin: 200px;
+}
+
+img{
+	margin: 100px;
+	border-width: 10px;
+	border-color: white;
+}
+
+#snow, #tree, #bridge{
+
+	display: inline-block;
+	margin: 10px 200px 10px;
+}
+
+	

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	'use strict';
+	function fancy(arr, symbol, reversed){
+		if(reversed){
+			arr=arr.reverse()
+		}
+
+		for (var i=0; i<arr.length; i++	){
+			console.log(i + " " + symbol + " " + arr[i]);
+
+		}
+	}
+
+	fancy(["James", "Jill", "Jane", "Jack"], "->", true)
+
+</script>
+
+</body>
+</html>
